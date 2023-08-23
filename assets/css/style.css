@@ -1,0 +1,118 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.nav-link {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.btn {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #5cb85f;
+}
+
+/* jumbotron */
+#jumbotron {
+  background-color: #f1f3ff;
+  height: 657px;
+  flex-shrink: 0;
+}
+#jumbotron h1 {
+  align-self: stretch;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+#jumbotron p {
+  align-self: stretch;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+img.mobil {
+  padding-top: 100px;
+}
+
+/* our service */
+/* .desc-service {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+} */
+
+#whyus .rounded {
+  border: 1px solid #d0d0d0;
+  padding: 20px 30px 10px 30px;
+  height: 220px;
+}
+
+#whyus img {
+  margin-bottom: 20px;
+}
+
+/* #testimonial .carousel-inner .m-2 img {
+} */
+.icon-color {
+  background-color: rgb(153, 238, 153);
+  opacity: 70%;
+}
+
+.callout {
+  border-radius: 13px;
+  background-color: #0d28a6;
+  /* padding: 64px 200px; */
+}
+/* -----------------------------DESKTOP VERSION----------------------------- */
+@media (min-width: 992px) {
+  #jumbotron {
+    height: 500px;
+    flex-shrink: 0;
+  }
+  #jumbotron h1 {
+    color: #000;
+    width: 568px;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+  }
+  #jumbotron p {
+    width: 450px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  /* img.mobil {
+    padding-top: 100px;
+    idth: 704px;
+    height: 407px;
+    flex-shrink: 0;
+  } */
+}
